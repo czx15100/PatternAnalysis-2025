@@ -17,3 +17,25 @@ Training is done using the cross-entropy loss funciton and an Adam optimizer wit
 
 ### Evaluation ###
 Here, the trained model is tested on a test dataset, and outputs the mean dice coefficient on that set. Additionally, predictions for several inputs are visualized alongside ground truth masks.
+
+## Outputs
+### Training curves:
+![Pipeline](training_curves.png)
+### Prediction visualisation:
+![Pipeline](predicted_output.png)
+
+
+
+## Dependencies
+- Python 3.10+
+- PyTorch 2.0+
+- torchvision
+- numpy
+- matplotlib
+- pillow
+- random
+
+## Dataset splits
+- Training: ~85% (9664)
+- Validating: ~10% (1120)
+- Testing: ~5% (544)
