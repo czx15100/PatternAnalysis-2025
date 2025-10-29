@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 e5f50ae0f6af1631706e8d20987639df7a81eeac Jimmy Cao <jc15100@hotmail.com> 1760271220 +1000	clone: from https://github.com/czx15100/PatternAnalysis-2025.git
+e5f50ae0f6af1631706e8d20987639df7a81eeac fe94a07ac79b46cab285ed0af66e21a7a7961600 Jimmy Cao <jc15100@hotmail.com> 1760271315 +1000	checkout: moving from main to topic-recognition
+fe94a07ac79b46cab285ed0af66e21a7a7961600 3cb5c775279fc9fbeebc9bc122e123efb2999ca2 Jimmy Cao <jc15100@hotmail.com> 1760273470 +1000	commit: Created the required python files.
+3cb5c775279fc9fbeebc9bc122e123efb2999ca2 aed5a319e4092157820fb5c4a0c42e9d6731e2d4 Jimmy Cao <jc15100@hotmail.com> 1760505927 +1000	commit: Added OASISDataset class for loading and preprocessing the OASIS dataset.
+aed5a319e4092157820fb5c4a0c42e9d6731e2d4 33f63ab9515eebab3a9be5beaf74dbcbcba83463 Jimmy Cao <jc15100@hotmail.com> 1760514053 +1000	commit: Defines a DoubleConv block that applies two convolutions.
+33f63ab9515eebab3a9be5beaf74dbcbcba83463 c20169ecf508624b48c646ff8c25d33d137455b2 Jimmy Cao <jc15100@hotmail.com> 1760519737 +1000	commit: Implements the upsampling and downsampling classses as the encoder and decoder.
+c20169ecf508624b48c646ff8c25d33d137455b2 8f215647e7d59c4812d1dcec9eaeae3155139757 Jimmy Cao <jc15100@hotmail.com> 1760540077 +1000	commit: Implements a simple UNet model.
+8f215647e7d59c4812d1dcec9eaeae3155139757 e602250ca474ae9e1cc95c6fe115d314e3c7e33b Jimmy Cao <jc15100@hotmail.com> 1760951407 +1000	commit: Add function to calculate the dice coefficient.
+e602250ca474ae9e1cc95c6fe115d314e3c7e33b d325a7c74b30e8188e8ed68248ff310ef2a204b0 Jimmy Cao <jc15100@hotmail.com> 1760958091 +1000	commit: Add train and validation functions for one epoch.
+d325a7c74b30e8188e8ed68248ff310ef2a204b0 457d8235c403ffa62ab1971c18651725a0a37e09 Jimmy Cao <jc15100@hotmail.com> 1760966677 +1000	commit: Implements the main training loop. Adds data file paths for training using the rangpur cluster.
+457d8235c403ffa62ab1971c18651725a0a37e09 1f994e9af63839c27e00676ede9e85214187640f Jimmy Cao <jc15100@hotmail.com> 1761414697 +1000	commit: Add predicted output for trained model.
+1f994e9af63839c27e00676ede9e85214187640f b1be06ec1fd8a849035997978f18cada12230cf1 Jimmy Cao <jc15100@hotmail.com> 1761436669 +1000	commit: Update the simple UNet model with batch normalization and dropout.
+b1be06ec1fd8a849035997978f18cada12230cf1 e740b2451361cedaa60b4b3e2e276e839da2d832 Jimmy Cao <jc15100@hotmail.com> 1761510518 +1000	commit: Add diice coefficient calulation for test set. Update visualisation to show multiple inputs.
+e740b2451361cedaa60b4b3e2e276e839da2d832 64cb76f2453f1bcf22b9b6da7ab9ed0b730335e9 Jimmy Cao <jc15100@hotmail.com> 1761531354 +1000	commit: Add residual connections to the model.
+64cb76f2453f1bcf22b9b6da7ab9ed0b730335e9 f2353620f0e9bbfbb44f8443a5432eab313bb434 Jimmy Cao <jc15100@hotmail.com> 1761546688 +1000	commit: Add data augmentation.
+f2353620f0e9bbfbb44f8443a5432eab313bb434 b5e12c42dc90296b6dd33bc7f85814b112b3dd9d Jimmy Cao <jc15100@hotmail.com> 1761610935 +1000	commit: Fix logic for dropout and increase epochs.
+b5e12c42dc90296b6dd33bc7f85814b112b3dd9d 31f5629351ad098c38a8ded573babc1f6048c1ea Jimmy Cao <jc15100@hotmail.com> 1761616678 +1000	commit: Add comments to dataset.py.
+31f5629351ad098c38a8ded573babc1f6048c1ea 5e18283e78c9db5883c12849e8ea0ef21ad2fecf Jimmy Cao <jc15100@hotmail.com> 1761632195 +1000	commit: Add comments to modules.py.
+5e18283e78c9db5883c12849e8ea0ef21ad2fecf 68847a85f79d2f7b294afd0ef4e317e7f64a9007 Jimmy Cao <jc15100@hotmail.com> 1761634398 +1000	commit: Add comments to train.py.
+68847a85f79d2f7b294afd0ef4e317e7f64a9007 4a2ba05c46b56cb5eae89fd99794311fa3433730 Jimmy Cao <jc15100@hotmail.com> 1761643090 +1000	commit: Add comments to predict.py.
