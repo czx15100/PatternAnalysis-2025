@@ -24,8 +24,6 @@ Here, the trained model is tested on a test dataset, and outputs the mean dice c
 ### Prediction visualisation:
 ![Pipeline](predicted_output.png)
 
-
-
 ## Dependencies
 - Python 3.10+
 - PyTorch 2.0+
@@ -34,6 +32,34 @@ Here, the trained model is tested on a test dataset, and outputs the mean dice c
 - matplotlib
 - pillow
 - random
+
+## Usage
+- Download and extract the OASIS dataset into the same folder as the .py files.
+- Run train.py, which will produce a best_model.pth file.
+- Run pedict.py, which will produce visualisations and the test dice score.
+
+### Directory Structure
+```
+├── dataset.py
+├── modules.py
+├── train.py
+├── predict.py
+├── README.md
+├── keras_png_slices_train/
+├── keras_png_slices_seg_train/
+├── keras_png_slices_validate/
+├── keras_png_slices_seg_validate/
+├── keras_png_slices_test/
+└── keras_png_slices_seg_test/
+```
+
+### Example Training Output
+```
+Epoch 1/80 | Train Loss: 0.0526 | Val Loss: 0.0314 | Train Dice: 0.8388 | Val Dice: 0.8454
+Epoch 2/80 | Train Loss: 0.0298 | Val Loss: 0.0260 | Train Dice: 0.8541 | Val Dice: 0.8531
+Epoch 3/80 | Train Loss: 0.0259 | Val Loss: 0.0245 | Train Dice: 0.8581 | Val Dice: 0.8542
+...
+```
 
 ## Dataset splits
 - Training: ~85% (9664)
