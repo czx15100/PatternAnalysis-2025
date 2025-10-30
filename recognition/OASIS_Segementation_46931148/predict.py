@@ -30,8 +30,6 @@ def evaluate_test_dice(model_path="best_model.pth", num_classes=3, dropout=0.1, 
     test_ds = OASISDataset(
         "keras_png_slices_test",
         "keras_png_slices_seg_test"
-        # "/home/groups/comp3710/OASIS/keras_png_slices_test",
-        # "/home/groups/comp3710/OASIS/keras_png_slices_seg_test"
     )
     test_loader = DataLoader(test_ds, batch_size=batch_size, shuffle=False)
 

@@ -69,10 +69,8 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Load Datasets
-    #train_ds = OASISDataset("keras_png_slices_train", "keras_png_slices_seg_train")
-    #val_ds = OASISDataset("keras_png_slices_validate", "keras_png_slices_seg_validate")
-    train_ds = OASISDataset("/home/groups/comp3710/OASIS/keras_png_slices_train", "/home/groups/comp3710/OASIS/keras_png_slices_seg_train")
-    val_ds = OASISDataset("/home/groups/comp3710/OASIS/keras_png_slices_validate", "/home/groups/comp3710/OASIS/keras_png_slices_seg_validate")
+    train_ds = OASISDataset("keras_png_slices_train", "keras_png_slices_seg_train")
+    val_ds = OASISDataset("keras_png_slices_validate", "keras_png_slices_seg_validate")
 
     # Dataloaders
     train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True)
