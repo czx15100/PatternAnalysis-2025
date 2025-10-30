@@ -113,12 +113,3 @@ class UNet(nn.Module):
         x = self.up0(x, x1)
 
         return self.outc(x)
-
-
-# Check functionality
-if __name__ == "__main__":
-    x = torch.randn(1, 1, 128, 128)
-    model = UNet(in_channels=1, num_classes=3)
-    y = model(x)
-    print("Input shape:", x.shape)
-    print("Output shape:", y.shape)

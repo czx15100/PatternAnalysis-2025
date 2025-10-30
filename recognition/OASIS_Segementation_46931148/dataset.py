@@ -78,22 +78,3 @@ class OASISDataset(Dataset):
             image_t = torch.clamp(image_t + noise, 0, 1)
 
         return image_t, mask_t
-    
-# Check functionality
-if __name__ == "__main__":
-    ds_test = OASISDataset("keras_png_slices_test", "keras_png_slices_seg_test")
-    ds_validate = OASISDataset("keras_png_slices_validate", "keras_png_slices_seg_validate")
-    ds_train = OASISDataset("keras_png_slices_train", "keras_png_slices_seg_train")
-    #ds_test = OASISDataset("/home/groups/comp3710/OASIS/keras_png_slices_test", "/home/groups/comp3710/OASIS/keras_png_slices_seg_test")
-    #ds_validate = OASISDataset("/home/groups/comp3710/OASIS/keras_png_slices_validate", "/home/groups/comp3710/OASIS/keras_png_slices_seg_validate")
-    #ds_train = OASISDataset("/home/groups/comp3710/OASIS/keras_png_slices_train", "/home/groups/comp3710/OASIS/keras_png_slices_seg_train")
-    print("Number of samples:", len(ds_test), len(ds_validate), len(ds_train))
-    img_test, mask_test = ds_test[0]
-    img_validate, mask_validate = ds_validate[0]
-    img_train, mask_train = ds_train[0]
-    print("Image shape:", img_test.shape)
-    print("Mask shape:", mask_test.shape)
-    print("Image shape:", img_test.shape)
-    print("Mask shape:", mask_test.shape)
-    print("Image shape:", img_test.shape)
-    print("Mask shape:", mask_test.shape)
